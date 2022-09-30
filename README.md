@@ -3,7 +3,7 @@ This project is a classification of gender based violence texts. The texts are c
 
 ![dataset distribution](images/dataset_distribution.png)
 
-The project uses the oversampling and pseudo labeling to balance the datasets.  The first approach to classify the texts was to use the multinomial naive bayes algorithm which results in a baseline performance.  This accuracy has  been improved significantly by fine-tuning the Bert model from Hugging Face on a dataset balanced using pseudo-labeling.
+This project uses the oversampling and pseudo labeling to balance the datasets.  The first approach to classify the texts was to use the multinomial naive bayes algorithm which performs quite good.  This accuracy has  been improved significantly by fine-tuning the Bert model from Hugging Face on a dataset balanced using pseudo-labeling.
 
 ## Requirements
 
